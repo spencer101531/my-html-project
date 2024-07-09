@@ -44,7 +44,7 @@
 }
 .sharpely {
   font-size: 50px;
-  color: black;
+  color:red;
   .container{
     display: flex;
     width: 95;
