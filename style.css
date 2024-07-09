@@ -1,18 +1,30 @@
-.heroes {
+*{
+  margin: 0;
+  padding: 0;
+}
+.bg_heroes{
   background-image: url(AVID\ TECH-PRINT.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 300vh;
   display: block;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+.bg_heroes h1 {
+  color: rgb(202, 15, 15);
+  padding-top: 40px;
+}
+.bg_heroes{
+  color: yellow;
+}
+
 .navbar_main {
-  height: 10vh;
+  height: 0px;
   display: flex
-  width: 95%;
+  width: 0px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -22,6 +34,8 @@
   margin-right: auto;
   display: flex;
   justify-content: space-around;
+  color: black;
+  font-size: larger;
 }
 .navlist {
   display: flex;
@@ -29,8 +43,8 @@
   gap: 20px;
 }
 .sharpely {
-  font-size: x-large;
-  color: gray;
+  font-size: 50px;
+  color: black;
   .container{
     display: flex;
     width: 95;
@@ -39,7 +53,7 @@
     flex-direction: column;
     justify-content: center;
   }
-
+  
 }
 @media (max-width:834px) {
     .navbar_main
