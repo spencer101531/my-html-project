@@ -43,8 +43,8 @@
   gap: 20px;
 }
 .sharpely {
-  font-size: 50px;
-  color:red;
+  font-size: x-large
+  color: black;
   .container{
     display: flex;
     width: 95;
